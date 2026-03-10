@@ -38,7 +38,7 @@ f.close()
 ```
 
 Output:- 
-![[1.1.png]]
+![File Handling Output](images/1.1.png)
 
 ---
 
@@ -58,7 +58,7 @@ with open("log.txt","a") as f:
 ```
 
 Output:- 
-![[2.1.png]]
+![Context Manager Output](images/2.1.png)
 
 ---
 
@@ -81,7 +81,7 @@ ControlMouse()
 
 Output:- 
 
-![[3.1.mov]]
+![Mouse Control Output](images/3.1.mov)
 
 ---
 
@@ -110,7 +110,7 @@ ControlKeyboard()
 ```
 
 Output:- 
-![[4.1.mov]]
+![Keyboard Control Output](images/4.1.mov)
 
 ---
 
@@ -125,7 +125,7 @@ Features:
 
 
 Output:- 
-![[5.1.mov]]
+![Basic Keyboard Listener Output](images/5.1.mov)
 
 ---
 
@@ -149,7 +149,7 @@ with Listener(on_move=printcordinate) as l:
 ```
 
 Output:- 
-![[6.1.mov]]
+![Mouse Movement Output](images/6.1.mov)
 
 ---
 
@@ -184,6 +184,6 @@ with Listener(on_press=writefile) as l:
 
 Output:- 
 
-![[7.1.mov]]
+![Advanced Keyboard Listener Output](images/7.1.mov)
 
 ---
