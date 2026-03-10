@@ -81,7 +81,9 @@ ControlMouse()
 
 Output:- 
 
-![Mouse Control Output](images/3.1.mov)
+<video controls width="640" src="images/3.1.mov">
+Your browser does not support HTML5 video.
+</video>
 
 ---
 
@@ -110,7 +112,9 @@ ControlKeyboard()
 ```
 
 Output:- 
-![Keyboard Control Output](images/4.1.mov)
+<video controls width="640" src="images/4.1.mov">
+Your browser does not support HTML5 video.
+</video>
 
 ---
 
@@ -125,7 +129,9 @@ Features:
 
 
 Output:- 
-![Basic Keyboard Listener Output](images/5.1.mov)
+<video controls width="640" src="images/5.1.mov">
+Your browser does not support HTML5 video.
+</video>
 
 ---
 
@@ -149,7 +155,9 @@ with Listener(on_move=printcordinate) as l:
 ```
 
 Output:- 
-![Mouse Movement Output](images/6.1.mov)
+<video controls width="640" src="images/6.1.mov">
+Your browser does not support HTML5 video.
+</video>
 
 ---
 
@@ -184,6 +192,8 @@ with Listener(on_press=writefile) as l:
 
 Output:- 
 
-![Advanced Keyboard Listener Output](images/7.1.mov)
+<video controls width="640" src="images/7.1.mov">
+Your browser does not support HTML5 video.
+</video>
 
 ---
