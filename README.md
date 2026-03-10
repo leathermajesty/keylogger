@@ -7,6 +7,38 @@ In making of this I learned file handling, keyboard control, mouse control, and 
 This is one step towards automation of own tools with having understanding of underlying process occurring.
 
 ---
+
+Requirements
+
+Python 3.x
+
+Install dependency:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+pip install pynput
+```
+
+---
+
+# How to Run
+
+Clone the repository:
+
+```
+git clone https://github.com/leathermajesty/keylogger.git
+cd keylogger
+```
+
+Run any script:
+
+```
+python3 8_listening_keyboard3.py
+```
+
+---
+
 ### 0. Setup virtual environment
 
 - Create virtual environment to seperate dependencies
