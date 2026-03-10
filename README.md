@@ -1,4 +1,4 @@
-# keylogger
+
 ---
 
 I made basic key-logger which can log every activity of keyboard and mouse when activated.
@@ -38,7 +38,7 @@ f.close()
 ```
 
 Output:- 
-![File Handling Output](images/1.1.png)
+![[1.1.png]]
 
 ---
 
@@ -58,7 +58,7 @@ with open("log.txt","a") as f:
 ```
 
 Output:- 
-![Context Manager Output](images/2.1.png)
+![[2.1.png]]
 
 ---
 
@@ -81,9 +81,7 @@ ControlMouse()
 
 Output:- 
 
-<video controls width="640" src="images/3.1.mov">
-Your browser does not support HTML5 video.
-</video>
+![[3.1.mov]]
 
 ---
 
@@ -112,9 +110,7 @@ ControlKeyboard()
 ```
 
 Output:- 
-<video controls width="640" src="images/4.1.mov">
-Your browser does not support HTML5 video.
-</video>
+![[4.1.mov]]
 
 ---
 
@@ -129,9 +125,7 @@ Features:
 
 
 Output:- 
-<video controls width="640" src="images/5.1.mov">
-Your browser does not support HTML5 video.
-</video>
+![[5.1.mov]]
 
 ---
 
@@ -155,9 +149,7 @@ with Listener(on_move=printcordinate) as l:
 ```
 
 Output:- 
-<video controls width="640" src="images/6.1.mov">
-Your browser does not support HTML5 video.
-</video>
+![[6.1.mov]]
 
 ---
 
@@ -192,8 +184,64 @@ with Listener(on_press=writefile) as l:
 
 Output:- 
 
-<video controls width="640" src="images/7.1.mov">
-Your browser does not support HTML5 video.
-</video>
+![[7.1.mov]]
+
+---
+
+# Requirements
+
+Python 3.x
+
+Install dependency:
+
+```bash
+pip install pynput
+```
+
+---
+
+# How to Run
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/python-input-automation.git
+cd python-input-automation
+```
+
+Run any script:
+
+```bash
+python filename.py
+```
+
+Example:
+
+```bash
+python 5_listening_keyboard.py
+```
+
+---
+
+# Use Cases
+
+These scripts demonstrate concepts used in:
+
+- Automation tools
+    
+- Input monitoring
+    
+- Human-computer interaction research
+    
+- Security research & malware analysis labs
+    
+- Python system programming practice
+    
+
+---
+
+# Disclaimer
+
+This project is for **educational and research purposes only**.  
 
 ---
