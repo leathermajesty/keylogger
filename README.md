@@ -1,4 +1,4 @@
-
+# Keylogger
 ---
 
 I made basic key-logger which can log every activity of keyboard and mouse when activated.
@@ -38,7 +38,8 @@ f.close()
 ```
 
 Output:- 
-![[1.1.png]]
+
+<img width="341" height="50" alt="Image" src="https://github.com/user-attachments/assets/4e51770d-aef6-4485-bd8b-59fc0d79a179" />
 
 ---
 
@@ -58,7 +59,9 @@ with open("log.txt","a") as f:
 ```
 
 Output:- 
-![[2.1.png]]
+
+<img width="288" height="61" alt="Image" src="https://github.com/user-attachments/assets/a8f01676-9ae2-425a-819f-7b44eb531ebb" />
+
 
 ---
 
@@ -81,7 +84,7 @@ ControlMouse()
 
 Output:- 
 
-![[3.1.mov]]
+https://github.com/user-attachments/assets/fd450add-7a76-4408-9406-0f8b47aea71f
 
 ---
 
@@ -110,7 +113,8 @@ ControlKeyboard()
 ```
 
 Output:- 
-![[4.1.mov]]
+
+https://github.com/user-attachments/assets/08d655b9-7393-4e2f-8690-f7c81db6a870
 
 ---
 
@@ -125,7 +129,8 @@ Features:
 
 
 Output:- 
-![[5.1.mov]]
+
+https://github.com/user-attachments/assets/b1df8d7d-753f-48b1-9ffc-6e5f1ccd167e
 
 ---
 
@@ -149,7 +154,8 @@ with Listener(on_move=printcordinate) as l:
 ```
 
 Output:- 
-![[6.1.mov]]
+
+https://github.com/user-attachments/assets/502dd71a-79f8-4b13-99d4-bbd78ee92611
 
 ---
 
@@ -184,44 +190,10 @@ with Listener(on_press=writefile) as l:
 
 Output:- 
 
-![[7.1.mov]]
+https://github.com/user-attachments/assets/6e012123-16be-4d45-b14e-ba31679ebaa4
 
 ---
 
-# Requirements
-
-Python 3.x
-
-Install dependency:
-
-```bash
-pip install pynput
-```
-
----
-
-# How to Run
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/python-input-automation.git
-cd python-input-automation
-```
-
-Run any script:
-
-```bash
-python filename.py
-```
-
-Example:
-
-```bash
-python 5_listening_keyboard.py
-```
-
----
 
 # Use Cases
 
